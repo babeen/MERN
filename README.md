@@ -13,9 +13,27 @@
 4. N - NodeJS(Server Side Program)
 
 # Template engine 
-`
- ejs
+    ejs
+
+# DB handler
+    mongoose
+
+# environment
+    dotenv
+
+# MIME handle
+    multer
+
+# CLent Access Info(activity log)
+    morgan
  
- ` 
+# Encrypter
+    JWT(JSON Web Token) tOKEN 
+# SLUG
+
+# MIME
+
+
 ** TODOS:
 1. Install mongoDB
+2. 
