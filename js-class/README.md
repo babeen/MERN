@@ -17,4 +17,5 @@
  ejs
  
  ` 
-
+** TODOS:
+1. Install mongoDB
