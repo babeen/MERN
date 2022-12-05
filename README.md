@@ -52,3 +52,9 @@
         friends[9]='Newton';
         friends[10]='Bikal';
         console.log(friends);
+
+## method
+    cube icon in vscode
+## properties
+    cuboid icon in vscode
+

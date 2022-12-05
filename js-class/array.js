@@ -12,6 +12,7 @@ const fruits = ['apple', 'banana', 'cherry', 'age', 1998-2022];
 */
 // const cars = newArray('BMW', 'Toyota', 'Porsche')
 
+/*
 const friends = []
 friends[0] = 'Babin';
 friends[1] = 'Manish';
@@ -24,5 +25,25 @@ friends[1]='Miraj';
 friends[9]='Newton';
 friends[10]='Bikal';
 console.log(friends);
+*/
+/*
+let calcAge = (birthYear)=>2022-birthYear;
+let arr1 = ['Bikash',23,undefined,null,10n,true,firends,{id:1,address:'Kathmandu'}, calcAge(1998)];
+
+let cities = ['KTM','BKT','BDP','PKR'];
+let lastElement = cities[cities.length - 1]; //latest data show or last element finding
 
 
+cities.push();
+cities.slice();
+cities.pop();
+cities.splice();
+cities.sort();
+cites.
+cities.map();
+cities.filter();
+*/
+
+const years = [1998,2002,2006];
+let hello = years + 10;
+console.log(typeof(hello));
