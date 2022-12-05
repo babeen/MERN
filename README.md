@@ -41,14 +41,14 @@
 
 ## Array holes
     const friends = []
-friends[0] = 'Babin';
-friends[1] = 'Manish';
-friends[2] = 'Bikash';
-friends[3] = 'Dipesh';
+        friends[0] = 'Babin';
+        friends[1] = 'Manish';
+        friends[2] = 'Bikash';
+        friends[3] = 'Dipesh';
 
 
-friends[1]='Miraj';
+        friends[1]='Miraj';
 
-friends[9]='Newton';
-friends[10]='Bikal';
-console.log(friends);
+        friends[9]='Newton';
+        friends[10]='Bikal';
+        console.log(friends);
