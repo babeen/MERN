@@ -36,7 +36,7 @@
 
 ** TODOS:
 1. Install mongoDB
-2. 
+2. Watch basics of js (Thapa Technical Youtube channel)
 
 
 ## Array holes
@@ -58,3 +58,7 @@
 ## properties
     cuboid icon in vscode
 
+## Important array methods
+    map()
+    filter()
+    reduce()
