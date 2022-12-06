@@ -49,12 +49,34 @@ cities.filter();
 // console.log(typeof(hello));
 
 //Array Map method
+// map returns array itself
+// map takes first parameter element(e)
+// map takes second parameter index(i)
+// map takes third parameter array(A)
 
 let arr = [1,2,3,4];
 
-let func1 = ()=>{};
+// let func1 = ()=>{};
 
-arr.map(func1);
+// arr.map(func1);
 
-let mappedArray = arr.map((e)=>e*2);
-console.log(mappedArray);
+// let mappedArray =
+//  console.log(arr.map((e)=>e*2));
+// console.log(mappedArray);
+
+// let mappedArray = arr.map((e,i)=>e+i);
+// console.log(mappedArray);
+
+let stds = ['manish','Krishna','cd','rb','kunti','draupadi','bhismpita','bheem','balendra'];
+
+// console.log(stds.map((e,i)=>`Roll no ${i+1} = ${e}`));
+// let output = stds.map((e,i)=>{
+//     let result = `roll no : ${i+1} = ${e}`;
+//     return result;
+// });
+// console.log(output);
+let dataBabin = [1,2,3,4,5]
+
+// let myNewArray = dataBabin.map((e) => [e*e,e*e*e]); // e**2, e**3
+// console.log(myNewArray);
+console.log(dataBabin.map((e,i,a)=>a));

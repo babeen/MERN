@@ -62,3 +62,8 @@
     map()
     filter()
     reduce()
+## Map array notes
+    .map((e,i,a)=>{})
+    e = each array
+    i = index of an array
+    a = itself array block
