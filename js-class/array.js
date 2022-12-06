@@ -44,6 +44,17 @@ cities.map();
 cities.filter();
 */
 
-const years = [1998,2002,2006];
-let hello = years + 10;
-console.log(typeof(hello));
+// const years = [1998,2002,2006];
+// let hello = years + 10;
+// console.log(typeof(hello));
+
+//Array Map method
+
+let arr = [1,2,3,4];
+
+let func1 = ()=>{};
+
+arr.map(func1);
+
+let mappedArray = arr.map((e)=>e*2);
+console.log(mappedArray);
