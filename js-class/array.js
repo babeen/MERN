@@ -92,7 +92,22 @@ cities.filter();
 // let filtersAalaries = salaries.filter(e=>e<500).map(e=>e)
 
 //Reduce
-let numbers = [1,2,3,4,5,6,7,8,9];
+// let numbers = [1,2,3,4,5,6,7,8,9];
 //array.reduce((acc,curr,i,a)=>{},initial value)
-let totalValue = numbers.reduce((acc,curr)=>acc+curr,0);
-console.log(totalValue);
+// let totalValue = numbers.reduce((acc,curr)=>acc+curr,0); // 0 is for accumulator current value is 0
+// console.log(totalValue);
+
+// find mean
+
+// let myMeanNum = [1,2,3,4,5,6,7,8,9];
+// let num = myMeanNum.length;
+// let myTotal = myMeanNum.reduce((acc,cur)=> acc+cur,0);
+// console.log(myTotal/num);
+
+//sort
+let names = ['bhawana','simran','aakriti','gauri'];
+console.log(names.sort());
+// let num = [33,4,5454,45234,23,345435345,43543,6565,654645,654,65,324234,23,42342,34,234];
+// let sortedArray = num.sort((a,b)=>a-b);//ascending 
+// let sortedArray = num.sort ((a,b)=>b-a);//descending
+// console.log(sortedArray);
