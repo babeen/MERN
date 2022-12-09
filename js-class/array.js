@@ -75,8 +75,18 @@ let stds = ['manish','Krishna','cd','rb','kunti','draupadi','bhismpita','bheem',
 //     return result;
 // });
 // console.log(output);
-let dataBabin = [1,2,3,4,5]
+// let dataBabin = [1,2,3,4,5]
 
 // let myNewArray = dataBabin.map((e) => [e*e,e*e*e]); // e**2, e**3
 // console.log(myNewArray);
-console.log(dataBabin.map((e,i,a)=>a));
+// console.log(dataBabin.map((e,i,a)=>a));
+
+const salaries = [15000,6000,4500,6700,20000,5800];
+
+let filteredSalaries = salaries.filter(e=>e<5000)
+console.log(filteredSalaries);
+
+let output= filteredSalaries.map(e=>e+1500);
+console.log(output);
+
+let filtersAalaries = salaries.filter(e=>e<500).map(e=>e)

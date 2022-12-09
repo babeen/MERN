@@ -37,6 +37,8 @@
 ** TODOS:
 1. Install mongoDB
 2. Watch basics of js (Thapa Technical Youtube channel)
+3. Install thunder client 
+
 
 
 ## Array holes
