@@ -54,7 +54,7 @@ cities.filter();
 // map takes second parameter index(i)
 // map takes third parameter array(A)
 
-let arr = [1,2,3,4];
+// let arr = [1,2,3,4];
 
 // let func1 = ()=>{};
 
@@ -67,7 +67,7 @@ let arr = [1,2,3,4];
 // let mappedArray = arr.map((e,i)=>e+i);
 // console.log(mappedArray);
 
-let stds = ['manish','Krishna','cd','rb','kunti','draupadi','bhismpita','bheem','balendra'];
+// let stds = ['manish','Krishna','cd','rb','kunti','draupadi','bhismpita','bheem','balendra'];
 
 // console.log(stds.map((e,i)=>`Roll no ${i+1} = ${e}`));
 // let output = stds.map((e,i)=>{
@@ -81,12 +81,18 @@ let stds = ['manish','Krishna','cd','rb','kunti','draupadi','bhismpita','bheem',
 // console.log(myNewArray);
 // console.log(dataBabin.map((e,i,a)=>a));
 
-const salaries = [15000,6000,4500,6700,20000,5800];
+// const salaries = [15000,6000,4500,6700,20000,5800];
 
-let filteredSalaries = salaries.filter(e=>e<5000)
-console.log(filteredSalaries);
+// let filteredSalaries = salaries.filter(e=>e<5000)
+// console.log(filteredSalaries);
 
-let output= filteredSalaries.map(e=>e+1500);
-console.log(output);
+// let output= filteredSalaries.map(e=>e+1500);
+// console.log(output);
 
-let filtersAalaries = salaries.filter(e=>e<500).map(e=>e)
+// let filtersAalaries = salaries.filter(e=>e<500).map(e=>e)
+
+//Reduce
+let numbers = [1,2,3,4,5,6,7,8,9];
+//array.reduce((acc,curr,i,a)=>{},initial value)
+let totalValue = numbers.reduce((acc,curr)=>acc+curr,0);
+console.log(totalValue);
