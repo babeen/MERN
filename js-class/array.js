@@ -105,9 +105,27 @@ cities.filter();
 // console.log(myTotal/num);
 
 //sort
-let names = ['bhawana','simran','aakriti','gauri'];
-console.log(names.sort());
+// let names = ['bhawana','simran','aakriti','gauri'];
+// console.log(names.sort());
 // let num = [33,4,5454,45234,23,345435345,43543,6565,654645,654,65,324234,23,42342,34,234];
 // let sortedArray = num.sort((a,b)=>a-b);//ascending 
 // let sortedArray = num.sort ((a,b)=>b-a);//descending
 // console.log(sortedArray);
+
+
+//Shiva prasad chapagain has x a' in his name. find it
+
+let myStr = 'Shiva Prasad Chapagain';
+// let myArrStr = myStr.split(',');
+let myArrStr = myStr.split("");
+
+let countA = 0;
+// console.log(myArrStr[0]);
+for(let i=0;i<myArrStr.length;i++){
+    debugger;
+    if(myArrStr[i]==='a'){
+       countA++;
+    }
+}
+console.log(countA);
+
