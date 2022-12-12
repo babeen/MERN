@@ -47,3 +47,4 @@ console.log(`Age is ${Person.Age()} , fullname is ${Person.firstName + ' ' + Per
 console.log(Person.Vote());
 
 
+ console.log(Object.keys(Person));
