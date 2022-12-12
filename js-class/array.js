@@ -116,16 +116,25 @@ cities.filter();
 //Shiva prasad chapagain has x a' in his name. find it
 
 let myStr = 'Shiva Prasad Chapagain';
-// let myArrStr = myStr.split(',');
-let myArrStr = myStr.split("");
+// // let myArrStr = myStr.split(',');
+// let myArrStr = myStr.split("");
+let myArrStr = [...myStr];
 
-let countA = 0;
-// console.log(myArrStr[0]);
-for(let i=0;i<myArrStr.length;i++){
-    debugger;
-    if(myArrStr[i]==='a'){
-       countA++;
+// let countA = 0;
+// // console.log(myArrStr[0]);
+// for(let i=0;i<myArrStr.length;i++){
+//     debugger;
+//     if(myArrStr[i]==='a'){
+//        countA++;
+//     }
+// }
+// console.log(countA);
+// console.log(myArrStr);
+let countA = myArrStr.reduce((acc,cur)=> {
+    if(cur === 'a'|| cur == 'A'){
+        acc++
     }
+    return acc
 }
+    ,0 );
 console.log(countA);
-
