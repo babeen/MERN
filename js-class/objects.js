@@ -17,5 +17,6 @@ let Babin ={
 Babin.fullName = `${Babin.firstName} ${Babin.lastName}`;
 
 Babin.college ??= 'Triton';
+Babin.college ??='Divya Gyan'
 
 console.log(Babin);
