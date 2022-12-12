@@ -131,10 +131,11 @@ let myArrStr = [...myStr];
 // console.log(countA);
 // console.log(myArrStr);
 let countA = myArrStr.reduce((acc,cur)=> {
+    debugger
     if(cur === 'a'|| cur == 'A'){
         acc++
     }
     return acc
-}
-    ,0 );
+},0
+);
 console.log(countA);
