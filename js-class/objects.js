@@ -49,48 +49,111 @@
 
 //  console.log(Object.keys(Person));
 
-let Obja = {
-    m : 0,
-    i :0,
-    s :0,
-    p:0
+//start program
+// let Obja = {
+//     m : 0,
+//     i :0,
+//     s :0,
+//     p:0
     
-}
-let text = 'MISSISSIPPI';
+// }
+// let text = 'MISSISSIPPI';
 //output ->{M:1,I:4,S:4,P:2}
 
-let allWord = [...text];
+// let allWord = [...text];
+// // for(let i=0;i<allWord.length;i++){
+// // }
+
+// // for(let i=0;i<allWord.length;i++){
+// // }
+
+// // for(let i=0;i<allWord.length;i++){
+// // }
+
+// for(let i=0;i<allWord.length;i++){
+//     if(allWord[i]=== 'P'){
+//         Obja.p ++;
+//     }
+//     else if(allWord[i]=== 'M'){
+//         Obja.m ++;
+//     }
+//     else if(allWord[i]=== 'S'){
+//         Obja.s ++;
+//     }
+//     else if(allWord[i]=== 'I'){
+//         Obja.i ++;
+//     }
+// }
+
+// console.log(Obja)
+//end program
+
+
 // console.log(allWord);
-let mCount = allWord.reduce((acc,cur)=>{
-            if(cur==='M'){
-                 acc++
-            } return acc;
-},0);
+// let mCount = allWord.reduce((acc,cur)=>{
+//             if(cur==='M'){
+//                  acc++
+//             } return acc;
+// },0);
 
-Obja.m = mCount;
+// Obja.m = mCount;
 
-let iCount = allWord.reduce((acc,cur)=>{
-    if(cur==='I'){
-         acc++
-    } return acc;
-},0);
+// let iCount = allWord.reduce((acc,cur)=>{
+//     if(cur==='I'){
+//          acc++
+//     } return acc;
+// },0);
 
-Obja.i = iCount;
+// Obja.i = iCount;
 
-let sCount = allWord.reduce((acc,cur)=>{
-    if(cur==='S'){
-         acc++
-    } return acc;
-},0);
+// let sCount = allWord.reduce((acc,cur)=>{
+//     if(cur==='S'){
+//          acc++
+//     } return acc;
+// },0);
 
-Obja.s = sCount;
+// Obja.s = sCount;
 
-let pCount = allWord.reduce((acc,cur)=>{
-    if(cur==='P'){
-         acc++
-    } return acc;
-},0);
+// let pCount = allWord.reduce((acc,cur)=>{
+//     if(cur==='P'){
+//          acc++
+//     } return acc;
+// },0);
 
-Obja.p = pCount;
+// Obja.p = pCount;
 
-console.log(Obja);
+// console.log(Obja);
+
+//Exercies 02
+// let data =[
+//     {id:1,firstName:'Ram'},
+//     {id:1,firstName:'Sita'},
+//     {id:2,firstName:'Hari'},
+//     {id:4,firstName:'Laxman'}
+// ];
+
+// let filteredOdd = data.filter(e=> e.id%2 === 1);
+
+// console.log(filteredOdd)
+
+//  data.map(e=>e.address = 'ktm')
+// console.log(data)
+
+// console.log(data);
+
+
+
+// const str ="MISSISSIPPI";
+
+// let func2 = (str)=>{
+//     return str.split('').reduce((acc,curr)=>{
+//         acc[curr] ? acc[curr]++ : acc[curr]=1;
+//         return acc
+//     },{})
+// }
+
+let srt1 = 'BRAZZERS'.split('').reduce((acc,curr)=>{
+    acc[curr] =(acc[curr] || 0) + 1;
+    return acc;
+},{})
+console.log(srt1);

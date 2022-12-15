@@ -69,3 +69,7 @@
     e = each array
     i = index of an array
     a = itself array block
+
+## Short Sorketing;
+     acc[curr] =(acc[curr] || 0) + 1;
+   
