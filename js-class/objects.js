@@ -145,44 +145,9 @@
 
 // const str ="MISSISSIPPI";
 
-// let func2 = (str)=>{
-//     return str.split('').reduce((acc,curr)=>{
+// let func2 = (string)=>{
+//     return string.split('').reduce((acc,curr)=>{
 //         acc[curr] ? acc[curr]++ : acc[curr]=1;
 //         return acc
 //     },{})
 // }
-
-let srt1 = 'alskdjflaaldflkj'.split('').reduce((acc,curr)=>{
-    acc[curr] =(acc[curr] || 0) + 1;
-    return acc;
-},{})
-console.log(srt1);
-
-// Factory function
-
-function myDetail(myName,birthYear,college){
-    return{
-        firstname : myName,
-        calcAge(){
-            console.log(`age is ${2022-birthYear}`);
-        },
-        myCollege:college
-    }
-}
-const Babin = myDetail('Babin',2001,'TIC');
-console.log(Babin);
-Babin.calcAge();
-
-
-// Constructor function
-
-function Person(name, birthYear,college){
-    this.name =name,
-    this.calcAge =function(){
-        console.log(`Age: ${2022-birthYear}`)
-    },
-    this.college = college
-}
-const laxman = new Person('laxman',2010,'Triton');
-
-console.log(laxman);
